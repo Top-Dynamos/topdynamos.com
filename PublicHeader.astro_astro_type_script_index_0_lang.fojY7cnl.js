@@ -1,0 +1,1 @@
+var e=document.querySelector(`header.site details.more`);e&&(document.addEventListener(`click`,t=>{e.open&&!e.contains(t.target)&&(e.open=!1)}),document.addEventListener(`keydown`,t=>{t.key===`Escape`&&e.open&&(e.open=!1,e.querySelector(`summary`)?.focus())}));

@@ -1,0 +1,1 @@
+var e=matchMedia(`(min-width: 760px)`),t=()=>{document.documentElement.classList.toggle(`fold-wide`,e.matches);for(let t of document.querySelectorAll(`details.fold`))t.open=e.matches};t(),e.addEventListener(`change`,t);

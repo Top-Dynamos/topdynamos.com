@@ -1,0 +1,1 @@
+for(let e of document.querySelectorAll(`.site .menu`))e.addEventListener(`click`,t=>{t.target.closest(`a`)&&(e.open=!1)});
