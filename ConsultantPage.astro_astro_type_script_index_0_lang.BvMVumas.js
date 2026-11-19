@@ -1,0 +1,1 @@
+var e=document.getElementById(`cal-frame`);e&&window.addEventListener(`message`,t=>{if(t.origin===`https://calendly.com`&&t.data&&typeof t.data.event==`string`){if(t.data.event===`calendly.page_height`){let n=parseInt(String(t.data.payload?.height??``),10);n>400&&n<2400&&(e.style.height=`${n}px`)}t.data.event===`calendly.event_scheduled`&&e.scrollIntoView({block:`start`})}});
